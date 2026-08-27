@@ -8,37 +8,31 @@ const GOOGLE_REVIEWS =
 const testimonials = [
   {
     name: "Kim Bryant",
-    date: "Oct 2020",
     avatar: "https://lh3.googleusercontent.com/a-/ALV-UjVIAnZIsLpGk97jCi62kg3WPUGnpe_dha1_rGCOJDwHLDVd4p78=s120-c-rp-mo-br100",
     text: "Des provided some great insights… I would highly recommend Des for your marketing needs!",
   },
   {
     name: "Rebecca Livesey",
-    date: "Sept 2018",
     avatar: "https://lh3.googleusercontent.com/a-/ALV-UjWtbrqcrmWN_jrw8c4oVgLL6KuHADYlzGXJXe_l1QGWE0Z6P-E=s120-c-rp-mo-br100",
     text: "Des provided me with an in depth Twitter audit and strategy, full of practical tips…",
   },
   {
     name: "Kobus Avenant",
-    date: "Oct 2018",
     avatar: "https://lh3.googleusercontent.com/a-/ALV-UjU73t4AmNTSHiZu1_b8WVrki1Ni2NvF_MHxtfC1G0Ea6RaglyQ=s120-c-rp-mo-ba4-br100",
     text: "I highly recommend that you use this company. The attention to detail and advice given was invaluable.",
   },
   {
     name: "Iain Williams",
-    date: "Sept 2018",
     avatar: "https://lh3.googleusercontent.com/a-/ALV-UjWcZ3LPFQB-PD-uGquoeKcwgS_jOla98hkbDfUDON__Tb1F5jY=s120-c-rp-mo-br100",
     text: "I connected with XenMedia Marketing through Desmond, who has provided a massive inspiration…",
   },
   {
     name: "Yvonne A Jones",
-    date: "Sept 2018",
     avatar: "https://lh3.googleusercontent.com/a-/ALV-UjVVh8kTfsYC7flStrCPziwMG90g8_Q64cmMiXPaKH4ph_EiwJsN=s120-c-rp-mo-ba2-br100",
     text: "I have been struggling with getting my Twitter account going again and XenMedia Marketing was hired…",
   },
   {
     name: "Jackie Hooper",
-    date: "Sept 2018",
     avatar: "https://lh3.googleusercontent.com/a-/ALV-UjV66N5T7oxUlYU2KKxQ1U64vcMm7W6dKyvOkBFvbyX-IEzq-Ts=s120-c-rp-mo-br100",
     text: "Des really knows what he is talking about in Social Media matters. He's very helpful…",
   },
@@ -94,7 +88,7 @@ export default function TestimonialsSection() {
                   )}
                   <div>
                     <p className="font-semibold text-slate-900 text-sm">{t.name}</p>
-                    <p className="text-slate-400 text-xs">{t.date}</p>
+                    
                   </div>
                 </div>
               </div>
