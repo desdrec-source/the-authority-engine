@@ -18,7 +18,7 @@ export default function Navbar() {
   }, []);
 
   const links = [
-    { label: "Home", href: "/Home" },
+    { label: "Home", href: "/" },
     { label: "Speaking", href: "/Speaking" },
     { label: "Training", href: "/Training" },
     { label: "Consulting", href: "/Consulting" },
@@ -31,7 +31,7 @@ export default function Navbar() {
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "bg-slate-900/95 backdrop-blur-xl border-b border-white/10 shadow-lg shadow-black/20" : "bg-transparent"}`}>
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <Link to="/Home" className="flex items-center gap-2 group">
+        <Link to="/" className="flex items-center gap-2 group">
           <Logo className="h-8 w-8" />
           <span className="text-lg font-bold text-white tracking-tight whitespace-nowrap">
             The Authority Engine

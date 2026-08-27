@@ -40,8 +40,8 @@ const AuthenticatedApp = () => {
   // Render the main app
   return (
     <Routes>
-      <Route path="/" element={<Navigate to="/Home" replace />} />
-      <Route path="/Home" element={<Home />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/Home" element={<Navigate to="/" replace />} />
       <Route path="/Speaking" element={<Speaking />} />
       <Route path="/Training" element={<Training />} />
       <Route path="/Consulting" element={<Consulting />} />
