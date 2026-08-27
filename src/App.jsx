@@ -12,6 +12,7 @@ import Consulting from './pages/Consulting';
 import Tool from './pages/Tool';
 
 import Contact from './pages/Contact';
+import CookieNotice from '@/components/CookieNotice';
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
 import Cookies from './pages/Cookies';
@@ -64,6 +65,7 @@ function App() {
       <QueryClientProvider client={queryClientInstance}>
         <Router>
           <AuthenticatedApp />
+          <CookieNotice />
         </Router>
         <Toaster />
       </QueryClientProvider>
