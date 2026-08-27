@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Compass, Globe, CalendarClock, Inbox, X } from "lucide-react";
+import { Compass, Globe, CalendarClock, Inbox, X, ArrowRight } from "lucide-react";
 import Navbar from "../components/Navbar";
 import PageHero from "../components/PageHero";
 import ServiceFeatures from "../components/ServiceFeatures";
@@ -72,6 +72,17 @@ export default function Consulting() {
                 </div>
               </motion.div>
             ))}
+          </div>
+          <div className="text-center mt-12">
+            <a
+              href={CALENDAR}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-8 py-3.5 bg-gradient-to-r from-ember-500 to-ember-600 text-white font-semibold rounded-full hover:shadow-lg hover:shadow-ember-500/30 transition-all hover:-translate-y-0.5"
+            >
+              Book a call
+              <ArrowRight className="h-4 w-4" />
+            </a>
           </div>
         </div>
       </section>
