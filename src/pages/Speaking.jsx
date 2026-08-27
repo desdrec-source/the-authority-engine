@@ -10,7 +10,7 @@ import Footer from "../components/Footer";
 const topics = [
   { icon: Target, title: "CAT Moments", desc: "The Challenges, Aspirations, and Transformations framework that turns expertise into content your audience searches for.", color: "navy" },
   { icon: TrendingUp, title: "Search-Estate", desc: "Owning the YouTube results for the questions your ideal clients are already asking.", color: "ember" },
-  { icon: Zap, title: "One Video a Week", desc: "A sustainable cadence that fits around a busy practice — about six hours a month.", color: "navy" },
+  { icon: Zap, title: "One Video a Week", desc: "A sustainable cadence that fits around a busy practice - about six hours a month.", color: "navy" },
   { icon: Mail, title: "Inbound Enquiries", desc: "Replacing cold outreach with a steady stream of warm, qualified leads.", color: "ember" },
 ];
 
@@ -27,7 +27,7 @@ export default function Speaking() {
       <PageHero
         badge="Speaking"
         title="Speaking"
-        subtitle="Talks, workshops, and round-tables at UK business events — on CAT Moments, Search-Estate, and the one-video-a-week system that fuels inbound enquiries."
+        subtitle="Talks, workshops, and round-tables at UK business events - on CAT Moments, Search-Estate, and the one-video-a-week system that fuels inbound enquiries."
         cta={{ label: "Get in touch", to: "/Contact" }}
       />
       <ServiceFeatures
@@ -39,14 +39,14 @@ export default function Speaking() {
       <ServiceFeatures
         eyebrow="Formats"
         title="Ways to Book Me"
-        subtitle="Talks, workshops, and round-tables — tailored to your audience."
+        subtitle="Talks, workshops, and round-tables - tailored to your audience."
         items={formats}
         bg="slate"
       />
       <PlaceholderTestimonials
         eyebrow="Placeholders"
         title="Audience Feedback"
-        subtitle="Real quotes from event organisers and attendees — coming soon."
+        subtitle="Real quotes from event organisers and attendees - coming soon."
         roles={["Event organiser", "Workshop host", "Round-table participant"]}
       />
       <CtaSection />

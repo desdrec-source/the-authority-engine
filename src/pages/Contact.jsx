@@ -21,7 +21,7 @@ export default function Contact() {
             Let's Talk
           </h1>
           <p className="text-navy-200/60 text-lg">
-            Coaches, consultants, and founders — tell me how I can help fuel your pipeline.
+            Coaches, consultants, and founders - tell me how I can help fuel your pipeline.
           </p>
         </motion.div>
       </div>

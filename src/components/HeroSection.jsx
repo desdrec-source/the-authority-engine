@@ -50,12 +50,12 @@ export default function HeroSection() {
             </div>
 
             <h2 className="text-2xl sm:text-3xl font-bold text-white/90 leading-snug mb-5">
-              Lead generation for coaches, consultants & founders —{" "}
+              Lead generation for coaches, consultants & founders -{" "}
               <span className="text-ember-400">one video a week</span>
             </h2>
 
             <p className="text-slate-300 text-lg leading-relaxed mb-8 max-w-lg">
-              The Authority Engine turns about six hours a month into a steady stream of inbound enquiries — built on CAT Moments and Search-Estate strategy.
+              The Authority Engine turns about six hours a month into a steady stream of inbound enquiries - built on CAT Moments and Search-Estate strategy.
             </p>
 
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
@@ -100,7 +100,7 @@ export default function HeroSection() {
 
             <motion.img
               src={CONSULTANT_IMAGE}
-              alt="Des Dreckett — The Authority Engine"
+              alt="Des Dreckett - The Authority Engine"
               animate={{ y: [0, -12, 0] }}
               transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
               className="relative z-10 w-full max-w-sm lg:max-w-md rounded-3xl shadow-2xl shadow-navy-900/50"

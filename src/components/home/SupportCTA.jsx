@@ -9,7 +9,7 @@ const triggers = [
   { icon: Youtube, text: "Weekly YouTube videos on CAT Moments & Search-Estate" },
   { icon: Users, text: "A free community of coaches, consultants, and founders" },
   { icon: MessageCircle, text: "Ask questions and get answers" },
-  { icon: Zap, text: "No cost, no pitch — just the method" },
+  { icon: Zap, text: "No cost, no pitch - just the method" },
 ];
 
 const floatingSymbols = [
@@ -69,7 +69,7 @@ export default function SupportCTA() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-ember-400/10 border border-ember-400/30 rounded-full text-xs font-semibold text-ember-300 mb-6">
             <Users className="h-3.5 w-3.5" />
-            Free Community — No Strings Attached
+            Free Community - No Strings Attached
           </div>
 
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white leading-tight mb-4">
@@ -82,7 +82,7 @@ export default function SupportCTA() {
           <p className="text-slate-300/70 text-lg leading-relaxed mb-10 max-w-xl mx-auto">
             A free Skool community for coaches, consultants, and founder-led businesses. Learn the{" "}
             <strong className="text-white">CAT Moments</strong> framework and{" "}
-            <strong className="text-white">Search-Estate</strong> strategy — one video a week, about six hours a month, inbound enquiries.
+            <strong className="text-white">Search-Estate</strong> strategy - one video a week, about six hours a month, inbound enquiries.
           </p>
 
           {/* Trust triggers */}

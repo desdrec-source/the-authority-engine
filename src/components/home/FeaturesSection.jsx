@@ -6,7 +6,7 @@ const features = [
   { icon: Target, title: "CAT Moments", desc: "Turn the Challenges, Aspirations, and Transformations your clients care about into content that resonates.", color: "navy" },
   { icon: TrendingUp, title: "Search-Estate Strategy", desc: "Own the search results for the exact questions your ideal clients are asking.", color: "ember" },
   { icon: Zap, title: "One Video a Week", desc: "A sustainable YouTube cadence that fits around a busy consulting practice.", color: "navy" },
-  { icon: Smartphone, title: "About Six Hours a Month", desc: "Script, film, edit, and publish — the whole process in roughly six hours a month.", color: "ember" },
+  { icon: Smartphone, title: "About Six Hours a Month", desc: "Script, film, edit, and publish - the whole process in roughly six hours a month.", color: "ember" },
   { icon: Hash, title: "Inbound Enquiries", desc: "Replace cold outreach with a steady stream of warm, inbound leads.", color: "navy" },
   { icon: Globe, title: "Built for Founders", desc: "Designed for coaches, consultants, and founder-led businesses.", color: "ember" },
 ];

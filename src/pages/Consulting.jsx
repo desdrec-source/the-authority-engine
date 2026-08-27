@@ -13,7 +13,7 @@ const CALENDAR = "https://calendar.app.google/1hYww8VK5qaB5DGH6";
 const build = [
   { icon: Compass, title: "Positioning", desc: "Sharpening your CAT Moments so your expertise is unmistakable to the right audience.", color: "navy" },
   { icon: Globe, title: "Search-Estate", desc: "Owning the YouTube results for the questions your ideal clients are already asking.", color: "ember" },
-  { icon: CalendarClock, title: "Cadence", desc: "A sustainable one-video-a-week rhythm — about six hours a month.", color: "navy" },
+  { icon: CalendarClock, title: "Cadence", desc: "A sustainable one-video-a-week rhythm - about six hours a month.", color: "navy" },
   { icon: Inbox, title: "Inbound Path", desc: "The system that turns views into a steady stream of warm, inbound enquiries.", color: "ember" },
 ];
 
@@ -29,13 +29,13 @@ export default function Consulting() {
       <PageHero
         badge="Consulting"
         title="Consulting"
-        subtitle="A done-with-you Authority Engine build — positioning, Search-Estate, cadence, and the inbound path. Not a corporate LinkedIn consultancy. Not a $19 product."
+        subtitle="A done-with-you Authority Engine build - positioning, Search-Estate, cadence, and the inbound path. Not a corporate LinkedIn consultancy. Not a $19 product."
         cta={{ label: "Book a call", href: CALENDAR }}
       />
       <ServiceFeatures
         eyebrow="The Build"
         title="What We Build Together"
-        subtitle="The four pillars of a YouTube-led pipeline — installed with you, step by step."
+        subtitle="The four pillars of a YouTube-led pipeline - installed with you, step by step."
         items={build}
       />
 
@@ -51,7 +51,7 @@ export default function Consulting() {
               What It Isn't
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900">Clear Expectations</h2>
-            <p className="mt-4 text-slate-500 max-w-xl mx-auto">No false promises — just focused, hands-on work.</p>
+            <p className="mt-4 text-slate-500 max-w-xl mx-auto">No false promises - just focused, hands-on work.</p>
           </motion.div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {notFor.map((item, i) => (
@@ -79,7 +79,7 @@ export default function Consulting() {
       <PlaceholderTestimonials
         eyebrow="Placeholders"
         title="Client Outcomes"
-        subtitle="Real results from consulting clients — coming soon."
+        subtitle="Real results from consulting clients - coming soon."
         roles={["Coach · Founder", "Consultant · Agency", "Founder-led business"]}
       />
       <CtaSection />

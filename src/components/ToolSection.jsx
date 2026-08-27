@@ -24,7 +24,7 @@ export default function ToolSection() {
         >
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-900">Latest Videos</h2>
           <p className="mt-4 text-slate-500 max-w-xl mx-auto">
-            The Authority Engine on YouTube — CAT Moments, Search-Estate, and the one-video-a-week system for inbound enquiries.
+            The Authority Engine on YouTube - CAT Moments, Search-Estate, and the one-video-a-week system for inbound enquiries.
           </p>
         </motion.div>
 

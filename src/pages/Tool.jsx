@@ -22,7 +22,7 @@ export default function Tool() {
             Videos
           </h1>
           <p className="text-navy-200/60 text-lg">
-            YouTube-led lead generation — CAT Moments, Search-Estate, and the one-video-a-week system.
+            YouTube-led lead generation - CAT Moments, Search-Estate, and the one-video-a-week system.
           </p>
         </motion.div>
       </div>

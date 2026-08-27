@@ -42,7 +42,7 @@ export default function ContactSection() {
           className="text-center mb-12"
         >
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-900">Let's Talk</h2>
-          <p className="mt-4 text-slate-500">Coaches, consultants, and founders — tell me about your business and how I can help fuel your pipeline.</p>
+          <p className="mt-4 text-slate-500">Coaches, consultants, and founders - tell me about your business and how I can help fuel your pipeline.</p>
           <a href={CALENDAR} target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-2 mt-6 px-6 py-3 bg-gradient-to-r from-ember-500 to-ember-600 text-white font-semibold rounded-full hover:shadow-lg hover:shadow-ember-500/30 transition-all hover:-translate-y-0.5">
             <Calendar className="h-4 w-4" />Book a call

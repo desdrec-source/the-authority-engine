@@ -5,7 +5,7 @@ import { PenLine, Wand2, Share2 } from "lucide-react";
 const steps = [
   { step: "01", icon: PenLine, title: "Capture CAT Moments", desc: "Identify the Challenges, Aspirations, and Transformations your clients actually care about." },
   { step: "02", icon: Wand2, title: "Build Search-Estate", desc: "Turn each one into a YouTube video that ranks for the questions they're already asking." },
-  { step: "03", icon: Share2, title: "Fuel Your Pipeline", desc: "Let inbound enquiries come to you — no cold outreach, no ads, just warm leads." },
+  { step: "03", icon: Share2, title: "Fuel Your Pipeline", desc: "Let inbound enquiries come to you - no cold outreach, no ads, just warm leads." },
 ];
 
 export default function HowItWorksSection() {

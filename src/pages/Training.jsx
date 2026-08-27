@@ -10,7 +10,7 @@ import Footer from "../components/Footer";
 const sessions = [
   { icon: Target, title: "CAT Moments", desc: "The Challenges, Aspirations, and Transformations framework that turns expertise into content your audience searches for.", color: "navy" },
   { icon: TrendingUp, title: "Search-Estate", desc: "Owning the YouTube results for the questions your ideal clients are already asking.", color: "ember" },
-  { icon: Zap, title: "One Video a Week", desc: "A sustainable cadence that fits around a busy practice — about six hours a month.", color: "navy" },
+  { icon: Zap, title: "One Video a Week", desc: "A sustainable cadence that fits around a busy practice - about six hours a month.", color: "navy" },
   { icon: Mail, title: "Inbound Enquiries", desc: "Replacing cold outreach with a steady stream of warm, qualified leads.", color: "ember" },
 ];
 
@@ -27,7 +27,7 @@ export default function Training() {
       <PageHero
         badge="Training"
         title="Training"
-        subtitle="Team workshops that install the Authority Engine method — in-person, remote, or hybrid."
+        subtitle="Team workshops that install the Authority Engine method - in-person, remote, or hybrid."
         cta={{ label: "Get in touch", to: "/Contact" }}
       />
       <ServiceFeatures
@@ -46,7 +46,7 @@ export default function Training() {
       <PlaceholderTestimonials
         eyebrow="Placeholders"
         title="Participant Feedback"
-        subtitle="Real quotes from workshop participants — coming soon."
+        subtitle="Real quotes from workshop participants - coming soon."
         roles={["Team lead", "Marketing manager", "Founder"]}
       />
       <CtaSection />

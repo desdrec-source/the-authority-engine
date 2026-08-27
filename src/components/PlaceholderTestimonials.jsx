@@ -5,13 +5,13 @@ import { User } from "lucide-react";
 export default function PlaceholderTestimonials({
   eyebrow = "Placeholders",
   title = "Client Stories",
-  subtitle = "Real quotes — coming soon.",
+  subtitle = "Real quotes - coming soon.",
   roles = ["Coach · Founder", "Consultant · Agency", "Founder-led business"],
 }) {
   const testimonials = roles.map((role) => ({
     name: "Client name",
     role,
-    text: "Your testimonial will appear here — this is a placeholder until you add a real quote.",
+    text: "Your testimonial will appear here - this is a placeholder until you add a real quote.",
   }));
 
   return (

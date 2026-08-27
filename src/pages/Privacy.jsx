@@ -63,10 +63,10 @@ export default function Privacy() {
 
         <h2>Legal basis (UK GDPR)</h2>
         <ul>
-          <li><strong>Legitimate interests</strong> — running a secure website and answering business enquiries</li>
-          <li><strong>Contract / steps toward a contract</strong> — if you ask to work with us</li>
-          <li><strong>Consent</strong> — where you choose to submit a form or enable optional cookies in your browser</li>
-          <li><strong>Legal obligation</strong> — where the law requires us to keep or disclose information</li>
+          <li><strong>Legitimate interests</strong> - running a secure website and answering business enquiries</li>
+          <li><strong>Contract / steps toward a contract</strong> - if you ask to work with us</li>
+          <li><strong>Consent</strong> - where you choose to submit a form or enable optional cookies in your browser</li>
+          <li><strong>Legal obligation</strong> - where the law requires us to keep or disclose information</li>
         </ul>
 
         <h2>Cookies</h2>
@@ -78,10 +78,10 @@ export default function Privacy() {
 
         <h2>Who we share information with</h2>
         <ul>
-          <li>Vercel — website hosting</li>
-          <li>Hostinger — domain and email hosting</li>
-          <li>Google — calendar booking and YouTube embeds</li>
-          <li>Skool — community, if you join it</li>
+          <li>Vercel - website hosting</li>
+          <li>Hostinger - domain and email hosting</li>
+          <li>Google - calendar booking and YouTube embeds</li>
+          <li>Skool - community, if you join it</li>
         </ul>
         <p>They only receive what is needed to provide their service.</p>
 
