@@ -96,18 +96,7 @@ export default function TestimonialsSection() {
           ))}
         </div>
 
-        <div className="text-center mt-12">
-          <a
-            href={GOOGLE_REVIEWS}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold text-navy-700 bg-white border border-slate-200 rounded-full hover:border-navy-300 hover:shadow-md transition-all"
-          >
-            Read all reviews on Google
-            <ExternalLink className="h-4 w-4" />
-          </a>
-        </div>
-      </div>
+              </div>
     </section>
   );
 }
