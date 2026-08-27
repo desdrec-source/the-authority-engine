@@ -79,6 +79,11 @@ export default function Footer() {
           <p className="text-xs text-bronze-500 whitespace-nowrap">Fuelling Your Pipeline.</p>
         </div>
       </div>
-    </footer>
+            <div className="flex flex-wrap gap-4 text-sm text-slate-400">
+          <Link to="/privacy" className="hover:text-white transition-colors">Privacy</Link>
+          <Link to="/terms" className="hover:text-white transition-colors">Terms</Link>
+          <Link to="/cookies" className="hover:text-white transition-colors">Cookies</Link>
+        </div>
+      </footer>
   );
 }

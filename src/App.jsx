@@ -12,6 +12,9 @@ import Consulting from './pages/Consulting';
 import Tool from './pages/Tool';
 
 import Contact from './pages/Contact';
+import Privacy from './pages/Privacy';
+import Terms from './pages/Terms';
+import Cookies from './pages/Cookies';
 import { Navigate } from 'react-router-dom';
 
 const AuthenticatedApp = () => {
@@ -47,7 +50,7 @@ const AuthenticatedApp = () => {
       <Route path="/Consulting" element={<Consulting />} />
       <Route path="/Tool" element={<Tool />} />
 
-      <Route path="/Contact" element={<Contact />} />
+      <Route path="/Contact" element={<Contact />} />`r`n      <Route path="/privacy" element={<Privacy />} />`r`n      <Route path="/terms" element={<Terms />} />`r`n      <Route path="/cookies" element={<Cookies />} />`r`n      <Route path="/Privacy" element={<Navigate to="/privacy" replace />} />`r`n      <Route path="/Terms" element={<Navigate to="/terms" replace />} />`r`n      <Route path="/Cookies" element={<Navigate to="/cookies" replace />} />
       <Route path="*" element={<PageNotFound />} />
     </Routes>
   );
