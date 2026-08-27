@@ -1,7 +1,9 @@
-import React from "react";
+﻿import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+import { ArrowRight } from "lucide-react";
 
-export default function ServiceFeatures({ eyebrow, title, subtitle, items, bg = "white" }) {
+export default function ServiceFeatures({ eyebrow, title, subtitle, items, bg = "white", cta }) {
   return (
     <section className={`py-24 px-6 ${bg === "slate" ? "bg-slate-50" : "bg-white"}`}>
       <div className="max-w-6xl mx-auto">
@@ -41,6 +43,30 @@ export default function ServiceFeatures({ eyebrow, title, subtitle, items, bg = 
             );
           })}
         </div>
+
+        {cta && (
+          <div className="text-center mt-12">
+            {cta.href ? (
+              <a
+                href={cta.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-8 py-3.5 bg-gradient-to-r from-ember-500 to-ember-600 text-white font-semibold rounded-full hover:shadow-lg hover:shadow-ember-500/30 transition-all hover:-translate-y-0.5"
+              >
+                {cta.label}
+                <ArrowRight className="h-4 w-4" />
+              </a>
+            ) : (
+              <Link
+                to={cta.to || "/Contact"}
+                className="inline-flex items-center gap-2 px-8 py-3.5 bg-gradient-to-r from-ember-500 to-ember-600 text-white font-semibold rounded-full hover:shadow-lg hover:shadow-ember-500/30 transition-all hover:-translate-y-0.5"
+              >
+                {cta.label}
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+            )}
+          </div>
+        )}
       </div>
     </section>
   );

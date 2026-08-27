@@ -42,6 +42,7 @@ export default function Speaking() {
         subtitle="Talks, workshops, and round-tables - tailored to your audience."
         items={formats}
         bg="slate"
+        cta={{ label: "Book a call", href: "https://calendar.app.google/1hYww8VK5qaB5DGH6" }}
       />
       <PlaceholderTestimonials
         eyebrow="Placeholders"
