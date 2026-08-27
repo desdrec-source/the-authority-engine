@@ -90,7 +90,11 @@ export default function PricingSection() {
               </ul>
               {plan.external ? (
                 <a href={plan.link} target="_blank" rel="noopener noreferrer"
-                  className="mt-8 block w-full py-3.5 text-center font-semibold rounded-2xl bg-white text-navy-700 hover:shadow-lg hover:-translate-y-0.5 transition-all">
+                  className={`mt-8 block w-full py-3.5 text-center font-semibold rounded-2xl hover:shadow-lg hover:-translate-y-0.5 transition-all ${
+                  plan.highlighted
+                    ? "bg-white text-navy-700"
+                    : "bg-gradient-to-r from-navy-600 to-navy-700 text-white hover:shadow-navy-200"
+                }`}>
                   {plan.cta}
                 </a>
               ) : (
